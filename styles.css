@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 390;
+}
+
+body{
+    background-color: #e6db00;
+    color: #FFFFEC;
+}
+
+.container{
+    width: 90%;
+    max-width: 45vw;
+    margin: 10%;
+}
+
+.password-input{
+    width: 100%;
+    margin-top: 6vh;
+    margin-bottom: 4vh;
+    background-color: #050A0E;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vh 2.5vh;
+    border-radius: 10px;
+}
+
+.password-input input{
+    border: 0;
+    outline: 0;
+    font-size: 1.4vw;
+    background-color: #050A0E;
+    color: #ffffff;
+}
+
+
+.fa-solid.fa-copy{
+    cursor: pointer;
+}
+
+.title1{
+    font-size: 2.8vw;
+    font-weight: 450;
+    color: #050A0E;
+}
+
+.title2{
+    font-size: 3vw;
+    font-weight: 440;
+    color: #009FBD;
+    text-decoration: underline;
+}
+
+.generate-btn{
+    background-color: #009FBD;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    font-size: 1.1vw;
+    margin-top: 1.4vh;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    padding: 0 3vh;
+}
+
+.copy{
+    background-color: #050A0E;
+    border: 0;
+    outline: 0;
+}
