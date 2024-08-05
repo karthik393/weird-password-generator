@@ -77,3 +77,131 @@ body{
     border: 0;
     outline: 0;
 }
+
+@media (max-width: 1024px) {
+    .title1{
+        font-size: 6vw;
+        font-weight: 600;
+        color: #050A0E;
+        text-align: center;
+        padding-left: 18vh;
+    }
+    
+    .title2{
+        font-size: 9vw;
+        font-weight: 650;
+        color: #009FBD;
+        text-decoration: underline;
+        text-align: center;
+        padding-left: 15vh;
+    }
+
+    .password-input{
+        width: 130%;
+        margin-top: 6vh;
+        margin-bottom: 4vh;
+        background-color: #050A0E;
+        color: #ffffff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3vh 2.5vh;
+        border-radius: 10px;
+        margin-left: 6vh;
+    }
+
+    .password-input input{
+        border: 0;
+        outline: 0;
+        font-size: 4.4vw;
+        background-color: #050A0E;
+        color: #ffffff;
+    }
+
+    .copy{
+        font-size:2.6vw;
+    }
+
+    .generate-btn{
+        background-color: #009FBD;
+        color: #fff;
+        text-align: center;
+        cursor: pointer;
+        border: 0;
+        outline: 0;
+        font-size: 3.8vw;
+        margin-top: 1.4vh;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6px;
+        padding: 0 3vh;
+        margin-left: 6vh;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    .title1{
+        font-size: 9vw;
+        font-weight: 600;
+        color: #050A0E;
+        text-align: center;
+        padding-left: 10vh;
+    }
+    
+    .title2{
+        font-size: 11vw;
+        font-weight: 650;
+        color: #009FBD;
+        text-decoration: underline;
+        text-align: center;
+        padding-left: 10vh;
+    }
+
+    .password-input{
+        width: 160%;
+        margin-top: 6vh;
+        margin-bottom: 4vh;
+        background-color: #050A0E;
+        color: #ffffff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3vh 2.5vh;
+        border-radius: 10px;
+        margin-left: 0vh;
+    }
+
+    .password-input input{
+        border: 0;
+        outline: 0;
+        font-size: 4.8vw;
+        background-color: #050A0E;
+        color: #ffffff;
+    }
+
+    .copy{
+        font-size:5.6vw;
+    }
+
+    .generate-btn{
+        background-color: #009FBD;
+        color: #fff;
+        text-align: center;
+        cursor: pointer;
+        border: 0;
+        outline: 0;
+        font-size: 3.8vw;
+        margin-top: 1.4vh;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6px;
+        padding: 0 3vh;
+        margin-left: 2vh;
+    }
+    
+}
